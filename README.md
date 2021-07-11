@@ -9,10 +9,4 @@
     
     클래스 다이어그램 
     
-    ![클래스 다이어그램](https://user-images.githubusercontent.com/45662829/125183099-a2b48c80-e24e-11eb-8292-a6d98c9e3d83.png)
-
-
-   
-   
-   
-   
+    ![클래스 다이어그램](https://user-images.githubusercontent.com/45662829/125183239-dcd25e00-e24f-11eb-960a-dcddf3b36e8c.png)
