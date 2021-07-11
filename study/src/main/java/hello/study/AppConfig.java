@@ -1,5 +1,8 @@
 package hello.study;
 
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
 import discount.DiscountPolicy;
 import discount.FixDiscountPolicy;
 import discount.RateDiscountPolicy;
@@ -10,22 +13,27 @@ import member.MemoryMemberRepository;
 import order.OrderService;
 import order.OrderServiceImpl;
 
+@Configuration
 public class AppConfig {
 	
-	private MemberRepository memberRepository() { // AOP 중복 리팩터링
+	@Bean
+	public MemberRepository memberRepository() {
 		return new MemoryMemberRepository();
 	}
 	
+	@Bean
 	public MemberService memberService() {
 		return new MemberServiceImpl(memberRepository());
 	}
 	
+	@Bean
 	public OrderService orderService() {
 		return new OrderServiceImpl(memberRepository(), discountPolicy());
 	}
 	
+	@Bean
 	public DiscountPolicy discountPolicy() {
-		//return new FixDiscountPolicy(); // 정률로 할지 비율로 할지 선택가능
+		//return new FixDiscountPolicy(); 
 		return new RateDiscountPolicy();
 	}
 	
