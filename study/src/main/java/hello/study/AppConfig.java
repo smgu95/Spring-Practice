@@ -2,6 +2,7 @@ package hello.study;
 
 import discount.DiscountPolicy;
 import discount.FixDiscountPolicy;
+import discount.RateDiscountPolicy;
 import member.MemberRepository;
 import member.MemberService;
 import member.MemberServiceImpl;
@@ -24,7 +25,8 @@ public class AppConfig {
 	}
 	
 	public DiscountPolicy discountPolicy() {
-		return new FixDiscountPolicy();
+		//return new FixDiscountPolicy(); // 정률로 할지 비율로 할지 선택가능
+		return new RateDiscountPolicy();
 	}
 	
 }
