@@ -1,4 +1,4 @@
-package member;
+package hello.study.member;
 
 public interface MemberRepository {
 	void save(Member member);

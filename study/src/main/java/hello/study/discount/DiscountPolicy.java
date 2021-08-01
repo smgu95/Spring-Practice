@@ -1,6 +1,6 @@
-package discount;
+package hello.study.discount;
 
-import member.Member;
+import hello.study.member.Member;
 
 public interface DiscountPolicy {
 	/**

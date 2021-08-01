@@ -3,15 +3,15 @@ package hello.study;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import discount.DiscountPolicy;
-import discount.FixDiscountPolicy;
-import discount.RateDiscountPolicy;
-import member.MemberRepository;
-import member.MemberService;
-import member.MemberServiceImpl;
-import member.MemoryMemberRepository;
-import order.OrderService;
-import order.OrderServiceImpl;
+import hello.study.discount.DiscountPolicy;
+import hello.study.discount.FixDiscountPolicy;
+import hello.study.discount.RateDiscountPolicy;
+import hello.study.member.MemberRepository;
+import hello.study.member.MemberService;
+import hello.study.member.MemberServiceImpl;
+import hello.study.member.MemoryMemberRepository;
+import hello.study.order.OrderService;
+import hello.study.order.OrderServiceImpl;
 
 @Configuration
 public class AppConfig {

@@ -1,4 +1,4 @@
-package order;
+package hello.study.order;
 
 public class Order {
 	

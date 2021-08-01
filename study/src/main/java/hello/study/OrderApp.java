@@ -3,8 +3,8 @@ package hello.study;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-import member.*;
-import order.*;
+import hello.study.member.*;
+import hello.study.order.*;
 
 public class OrderApp {
 	

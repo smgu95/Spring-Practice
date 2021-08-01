@@ -5,8 +5,8 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import hello.study.AppConfig;
-import member.*;
-import order.*;
+import hello.study.member.*;
+import hello.study.order.*;
 
 public class OrderServiceTest {
 	

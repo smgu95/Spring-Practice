@@ -4,8 +4,9 @@ import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import member.Grade;
-import member.Member;
+import hello.study.discount.RateDiscountPolicy;
+import hello.study.member.Grade;
+import hello.study.member.Member;
 
 public class RateDiscountPolicyTest {
 	

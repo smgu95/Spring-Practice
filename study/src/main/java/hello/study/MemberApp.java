@@ -3,10 +3,10 @@ package hello.study;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-import member.Grade;
-import member.Member;
-import member.MemberService;
-import member.MemberServiceImpl;
+import hello.study.member.Grade;
+import hello.study.member.Member;
+import hello.study.member.MemberService;
+import hello.study.member.MemberServiceImpl;
 
 public class MemberApp {
 	

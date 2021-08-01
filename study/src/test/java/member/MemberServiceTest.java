@@ -5,6 +5,9 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import hello.study.AppConfig;
+import hello.study.member.Grade;
+import hello.study.member.Member;
+import hello.study.member.MemberService;
 
 public class MemberServiceTest {
 	
