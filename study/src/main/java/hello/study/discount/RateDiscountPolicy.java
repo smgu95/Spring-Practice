@@ -2,9 +2,11 @@ package hello.study.discount;
 
 import org.springframework.stereotype.Component;
 
+import hello.study.annotation.MainDiscountPolicy;
 import hello.study.member.Grade;
 import hello.study.member.Member;
 @Component
+@MainDiscountPolicy
 public class RateDiscountPolicy implements DiscountPolicy {
 	
 	private int discountPercent = 10;
